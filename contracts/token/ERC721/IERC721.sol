@@ -139,5 +139,5 @@ interface IERC721 is IERC165 {
         address to,
         uint256 tokenId,
         bytes calldata data
-    ) external;
+    ) external payable;
 }
